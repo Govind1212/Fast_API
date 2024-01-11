@@ -1,4 +1,4 @@
-#FastAPI Login process implementing OAuth
+# FastAPI Login process implementing OAuth
 
 This fastapi application demonstrates user authentication using OAuth2 bearer with JWT token. These app contains 4 api
 /users	            : Create new user account
@@ -6,22 +6,22 @@ This fastapi application demonstrates user authentication using OAuth2 bearer wi
 /auth/refresh-token	: Refresh JWT Token
 /users/me	          : Get Authenticated User Detail
 
-##To Replicate this in your system
-###Clone the repository:
+## To Replicate this in your system
+### Clone the repository:
 ```>git clone https://github.com/Govind1212/Fast_API.git```
 
-###Create Virtual Environment
+### Create Virtual Environment
 ```python -m venv venv```
 
-###Activate Virtual Environment
+### Activate Virtual Environment
 ```>cd venv/Scripts```
 ```>activate.bat```
 
-###Install Requirements
+### Install Requirements
 ```>cd ../..```
 ```>pip install -r requirements.txt```
 
-###Database Connectivity
+### Database Connectivity
 In MySQL Workbench, create a schema named fast_api. Create a table named users in the schema
 use following queries after creating schema
 ```
@@ -36,8 +36,8 @@ CREATE TABLE users (
 );
 
 ```
-###Run the server for app
+### Run the server for app
 ```>uvicorn main:app --reload```
 
-###Docker Contarization
+### Docker Contarization
 ```docker compose up --build```
