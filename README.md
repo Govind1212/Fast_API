@@ -11,14 +11,16 @@ This fastapi application demonstrates user authentication using OAuth2 bearer wi
 ```>git clone https://github.com/Govind1212/Fast_API.git```
 
 ### Create Virtual Environment
-```python -m venv venv```
+```>python -m venv venv```
 
 ### Activate Virtual Environment
 ```>cd venv/Scripts```
+
 ```>activate.bat```
 
 ### Install Requirements
 ```>cd ../..```
+
 ```>pip install -r requirements.txt```
 
 ### Database Connectivity
