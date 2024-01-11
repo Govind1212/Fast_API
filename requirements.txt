@@ -1,0 +1,18 @@
+fastapi==0.108.0
+uvicorn==0.25.0
+#to read environment variables
+python-dotenv==1.0.0
+#Configuring app settings
+pydantic-settings==2.0.3
+#to encrypt the password
+passlib[bcrypt]==1.7.4
+#to encrypt and decrypt jwt token
+python-jose[cryptography]==3.3.0
+#connect to mysql database
+pymysql==1.1.0
+SQLAlchemy==2.0.20
+mysql-connector-python
+pydantic[email] == 2.5.3
+python-multipart
+databases[sqlite]
+aiosqlite
